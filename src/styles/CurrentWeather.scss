@@ -1,0 +1,142 @@
+$colorBackground: #ffffff;
+$lightGrey:#c3c3c3;
+$LightBlue:#dee8f2;
+$lighpurple: #716f96;
+$mediumGray:#efeefe;
+
+
+.climateBox{
+    margin-top: -200px;
+    float: left;
+    width: 23%;
+    position: absolute;
+    z-index: 2;
+    margin-left: 70%;
+}
+
+.cityClimateOne{
+    background-color: $colorBackground;
+    height: 110px;
+    border: $lightGrey 1px solid;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px $lightGrey;
+    margin-bottom: 20px;
+}
+
+.climateCityIcon{
+    background-color: $LightBlue;
+    float: left;
+    width: 25%;
+    height: 70px;
+    margin-top: -0.5px;
+    margin-left: -0.5px;
+    border-radius: 14px;
+}
+
+.climateCityIcon img{
+    width: 70%;
+    float: left;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+.boxWeather p{
+    font-size: 10px;
+}
+
+.climateDegrees{
+    width: 22%;
+    height: 30px;
+    float: left;
+    margin-left: 2px;
+    margin-top: 17px;
+}
+
+.climateDegrees h2{
+    font-size: 13px;
+   
+}
+
+.climateCity{
+    float: left;
+    width: 20%;
+    height: 40px;
+    border-left: 1px solid $lightGrey;
+    margin-top: 20px;
+}
+
+.climateCity p{
+   margin: 0px;
+   font-weight: bold;
+}
+
+.city{
+    font-size: 18px;
+}
+
+.country{
+    font-size: 11px;
+}
+
+.humidity,.locations, .kilometres{
+    float: left;
+    width: 30%;
+    font-size: 13px;
+    color: $lightGrey;
+}
+
+.humidity{
+    margin-left: 15px;
+}
+
+.prueba{
+     height: 30px;
+     display: inline-block;
+     width: 100%;
+     margin-top: -2px;
+}
+
+.addLocations{
+    background-color: $colorBackground;
+    height: 180px;
+    border:$lightGrey 1px solid;
+    border-style:dashed ;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px $lightGrey;
+    margin-bottom: 20px;
+
+}
+
+.addLocations button{
+     background-color: $mediumGray;
+     color: $lighpurple;
+     border-radius: 40px;
+     padding: 10px 36px;
+     border: none;
+     margin-top: 23px;
+}
+
+.addLocations img{
+     width: 280px;
+     margin-top: 1px;
+ }
+
+ @media only screen and (max-width: 600px) {
+    .climateBox{
+        width: 80%;
+        margin-left: 41px;
+        margin-top: 300px; 
+    }
+
+    .humidity,.locations, .kilometres{
+        width: 31%;
+        font-size: 12px; 
+    }
+    
+
+    .addLocations img{
+        width: 250px;
+        margin-top: 11px;
+    }
+   
+  }

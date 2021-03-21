@@ -1,0 +1,5 @@
+{
+    "config": {
+        "newsUrlBase": "https://api.canillitapp.com"
+    }
+}

@@ -1,0 +1,89 @@
+$colorBackground: white;
+$purple: #8a86e4;
+$darkPurple:#36388b;
+$mediumPurple: #7d69ec;
+
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+.boxImgBanner{
+   width: 93%; 
+   height: 300px;
+   margin: auto;
+   margin-top: -135px; 
+}
+
+.boxImgBanner p{
+    position: absolute;
+    z-index: 2;
+    margin-top: -240px;
+    margin-left: 95px;
+    color: $purple;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.posicionamiento {
+    width: 15px;
+    position: absolute;
+    z-index: 2;
+    margin-left: -1180px;
+    margin-top: 70px;
+}
+
+.imgBanner{
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.position{
+    position: absolute;
+    z-index: 2;
+    width: 30px;
+   margin-right: 100px;
+}
+
+.boxClimate{
+    float: left;
+    width: 85px;
+    height: 180px;
+    position: relative;
+    top: 250px;
+}
+
+.boxWeather{
+    background-color: $darkPurple;
+    color: $colorBackground;
+    height: 100px;
+    width: 85px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 12px;
+    margin-top: -17px;
+    position: absolute;
+    z-index: 2;   
+}
+
+.iconWeather img{
+    width: 50%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.boxDegrees{
+    background-color: $mediumPurple;
+    height: 140px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.boxDegrees p{
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 90px;
+    color: $colorBackground;
+}
